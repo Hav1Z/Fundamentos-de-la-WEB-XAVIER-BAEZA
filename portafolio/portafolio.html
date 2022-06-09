@@ -4,39 +4,59 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="estilo.css">
     <title>Portfolio</title>
 </head>
-<!--Header of the title page-->
+
+<div>
+    <!--Header of the title page-->
 <h1>Xavier baeza</h1>
-<img src="unu.jpg" height="140" width="140"> 
+<img src="banana.jpg" height="140" width="140"> 
 <!--Header of the title page end-->
+</div>
+
 
 <!--Social Medias-->
 <!--Github-->
-<p><img src="github.png" width="44" height="44"></p>
-<h3><a href="https://github.com/Hav1Z">My GitHub</a></h3>
+
+<div style="display:inline-block;vertical-align:top ;">
+<img src="github.png" width="44" height="44" alt="img"/>
+</div>
+<div style="display:inline-block;">
+<p><h3><a href="https://github.com/Hav1Z">Mi GitHub</a></h3></p>
+</div>
 <!--End of GitHub-->
 
 <!--Email-->
-<p><img src="gmail.jpg" width="44" height="44"></p>
-<h3>xavier.baeza.cabezas@alumnos.sip.cl</h3>
+<div style="display:inline-block; vertical-align:top ;">
+    <img src="gmail.png" width="48" height="48" alt="">
+</div>
+<div style="display:inline-block;">
+<p><h3> xavier.baeza.kaki@gmail.com </h3></p>
+</div>
 <!--End of Email-->
+
 <!--End of Social Medias-->
+
+
 <body>
-    <h3>Acerca de mi</h3>
+
+    <div id="text">
+    <h2>Acerca de mi:</h2>
     <p>Hola soy Xavier, soy de santiago, Chile, tengo 16 años, 
         uno de mis proyectos es llegar <br> a una buena universidad 
         y tener un buen trabajo en el cual pueda estar comodo, trabajando 
         como programador. <br>Me gusta demasiado pasar tiempo en mi computador 
         jugando videojuegos como Call of Duty o Fortnite.<br>Me gusta mucho el 
         basquetball y el futbol, mis cosas favoritas son un dia lluvioso en el 
-        cual pueda <br>estar un sabado acostado, este es mi ID de GitHub: Hav1Z. </p>
+        cual pueda <br>estar un sabado acostado, este es mi ID de
+        GitHub: Hav1Z. </p>
+    </div>
 
 
 <!--Table of Technologies-->
 <h2>Technologias</h2>
-<table border="1">
+<table border="2">
     <tr>
         <th>Front-End</th>
         <th>Python</th>
@@ -71,19 +91,21 @@
 <!--Social Snakes-->
 <h3>Social Snakes</h3>
 <img src="http://cdn.onlinewebfonts.com/svg/img_573752.png" height="65" width="65">
-<p>Social Media App made in Python</p>
+<p>Aplicación de red Social hecha en Python</p>
 <!--Social Snakes End-->
 
 <!--Contact Me-->
-<h4>Contact Me</h4>
-<p>Name:</p>
+<div id="contacto">
+<h2>Contactame</h2>
+<p>Nombre:</p>
 <input type="text" name="Name">
 <p>Email:</p>
 <input type="text" name="Email">
-<p>Message:</p>
+<p>Mensaje:</p>
 <input type="text" name="Message">
 <!--Contact me end-->
 
 <button>Send Message</button>
+</div>
 </body>
 </html>
