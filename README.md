@@ -91,3 +91,18 @@ y:
 - p> tiene un contenido (texto): "Ahora, una etiqueta de párrafo"
 - h1> y -p son hermanos
 - head> y -body son hermanos
+  
+-Lo primero que hice fue poner (TML) es la base de una pagina web
+-luego coloque el head para poner titulo de la pagina y un enlace de link para estilo css
+-donde estaba mi diseño de la tabla
+
+-Luego ocupe (h1) para escribir mi nombre como encabezado
+-luego el img para mi foto de perfil
+-y el (table) con (tr) y (th) para colocar ordenadamente la imagenes con el vinculo (a href) de mi github y gmail
+-tambien puse un h2 para agregar un parrafo coin p sobre informacion de mi
+
+-despues puse un (h2) para el titulo de tecnologias y cree mi tabla donde puse los lenguajes de programacion
+-con (tr) (th) y (td)
+  
+-y en lo ultimo que hice fue poner un cuestionario para contactarme
+  con(divs) ,(input) y (p) por ultimo un (button) para enviarme el mensaje
