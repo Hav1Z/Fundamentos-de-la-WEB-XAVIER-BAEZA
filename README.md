@@ -73,7 +73,7 @@ Icon
 Para proporcionar un hipervínculo a la URL definida en el atributo href
 
 PSC
-<a href = "C:\proyectos\fundamentos-de-la-web-isidora-fuentes\psc.html">
+<a href = "C:\proyectos\fundamentos-de-la-web-XAVIER-BAEZA\psc.html">
 
 Del HTML anterior puedes inferir:
 
