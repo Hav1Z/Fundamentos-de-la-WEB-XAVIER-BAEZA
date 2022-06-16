@@ -1,0 +1,25 @@
+#text{
+    text-align: left;
+    font-weight: bold;
+    background-color: aqua;
+    color: rgb(0, 0, 0);
+}
+
+#text2{
+    text-align: center;
+    background-color: grey;
+    color: aqua;
+    font-style: italic;
+}
+
+#text3{
+    text-align: right;
+    background-color: rgb(118, 200, 248);
+    color: rgb(17, 0, 255);
+    font-style: light;
+    text-decoration: underline;
+}
+
+span{
+    color: rgb(217, 0, 255);
+}

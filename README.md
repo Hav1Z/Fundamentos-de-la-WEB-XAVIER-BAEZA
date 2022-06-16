@@ -91,3 +91,25 @@ y:
 - p> tiene un contenido (texto): "Ahora, una etiqueta de párrafo"
 - h1> y -p son hermanos
 - head> y -body son hermanos
+
+Hoy martes 14 de junio
+
+ESTILO CSS
+
+DISEÑO DE PAGINA:
+
+-Color
+-Tamaño
+-Posicion
+-Margen
+-Imagenes
+-Movimiento
+-Fuente
+-Alineacion
+-Definir fondo
+- ·Contador
+-Graficos Flotantes
+-Tablas
+-Barra de navegacion
+
+////- Los espacios se utilizan para separar varias clases///
