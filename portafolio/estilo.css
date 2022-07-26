@@ -3,25 +3,52 @@ body {
     heigh:665px;
     background-image: url("https://i.pinimg.com/originals/ae/94/48/ae94481e07fd39a444cb27a03c31d621.jpg");
     background-size: 10rem;
+    border-radius:50%;
 }
 
 table{
-    background-color: rgb(71, 140, 94);
-    border: black 3px solid;
+    background-color: rgb(132, 188, 150);
+    border: black 2px solid;
 }
 
 #text{
     background-color:rgb(130, 100, 211);
-    border: black 3px solid;
+    border: black 2px solid;
     margin: 15px;
     height: 190px;
     width: 700px;
 }
 
 #contacto{
-    background-color:rgb(130, 100, 211);
-    border: black 3px solid;
+    background-color:rgb(97, 126, 152);
+    border: black 2px solid;
     margin: 15px;
     height: 300px;
-    width: 250px;
+    width: 350px;
 }
+
+.btn{
+
+    font-family: Roboto Condensed;
+    font-weight: 0;
+    font-size: 14px;
+    color: rgb(1, 1, 1);
+    background-color: #0066CC;
+    padding: 16px 26px;
+    border: 2px solid #0066cc;
+    box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+    border-radius: 34px 42px 41px 31px;
+    transition : 1000ms;
+    transform: translateY(0);
+    }
+
+    .btn:hover{
+
+        transition : 1000ms;
+        padding: 10px 50px;
+        transform : translateY(-0px);
+        background-color: #fff;
+        color: #0066cc;
+        border: solid 2px #0066cc;
+        }
+
